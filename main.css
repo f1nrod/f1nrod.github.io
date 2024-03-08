@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color :#c9ad63;
+    margin-bottom: 60px;
+}
+
+a {
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+  }
+
+textarea { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: block;
+    width: 60%;
+
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 3px 1px rgba(0,0,0,.6);
+}
+
+textarea::placeholder {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#output {
+    background-color: #d7c384;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px 1px rgba(0,0,0,.3);
+    background-color: white;
+}
+
+#format {
+    height: 3em;
+    width: 60%;
+    margin-bottom: 12px;
+}
+
+#copy, #clear {
+    padding: 6px;
+    margin-bottom: 16px;
+    width: 24em;
+}
+
+/* the footer */
+footer {
+    text-align: center;
+    margin-top: 10rem;
+    width: 100%;
+    background-color: #d7c384;
+    color: #F5F1ED;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 10px 10px 10px 10px #2A2828;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer a {
+    font-size: 1.2em;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    background-color: white;
+    padding: 6px;
+    box-shadow: 1px 1px 1px .2px #2A2828;
+}
+
+footer a:hover, button:hover {
+    background-color: #dfdfdf;
+}
+
+/* about/documentation page */
+#aboutDiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: block;
+    width: 60%;
+
+    background-color: #d7c384;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 3px 1px rgba(0,0,0,.6);
+}
+
+#aboutDiv h1 {
+    text-align: center;
+}
+
+#aboutDiv h4 {
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+
+/* adjust screen size if on mobile */
+@media screen and (max-width: 900px) {
+    textarea {
+        width: 90%;
+    }
+
+    button {
+        width: 100% !important;
+        font-size: 16px;
+    }
+
+    #aboutDiv {
+        width: 90%;
+    }
+}
